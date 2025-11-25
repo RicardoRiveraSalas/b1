@@ -20,7 +20,7 @@ bot.on("message", (msg) => {
   const text = msg.text;
 
   if (text !== "/start") {
-    bot.sendMessage(chatId, `Recibí tu mensaje: "${text}"  hola`);
+    bot.sendMessage(chatId, `Recibí tu mensaje: "${text}" `);
   }
 });
 
